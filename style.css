@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#l h1{
+    font-family:'Playfair Display', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#l>*{
+    width:100%;
+}
+
+.l_gridded {
+    display: grid;
+    grid-template-columns:repeat(12,60px);
+    column-gap:20px;
+    justify-content:center;
+
+}
+
+#l .l_white{
+    padding:100px 0 70px;
+    grid-auto-rows: auto;
+}
+
+#l .l_leftie{
+    background-color: deeppink;
+}
+
+#l .l_rightie{  
+    background-color: aqua;
+}
+
+#l footer{
+    padding:70px 0 70px;
+    color:white;
+    background-color:#140F36;
+}
