@@ -2,4 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+
+.first-container {
+    background-image:url(./img/bgk-header.png) ;
+    color: white;
+    height:45vh;
+    /*max-width: 1000px;*/
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+    
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+
+#tajam{
+    color: aqua;
+    font-weight: 100;
+    margin-left: 0.5em;
+}
+
+#navbar{
+    width: 50%;
+    height: 100px;
+    margin-top: 2.5em;
+    
+  }
+
+#head-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+.head-li {
+    list-style: none;
 }
