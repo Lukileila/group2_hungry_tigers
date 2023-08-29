@@ -1,3 +1,68 @@
+
+.iconswithtext{
+  min-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  
+  iconsvsg{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items:flex-end;
+  text-align: center;
+  }
+  
+
+  .iconswithtextii{
+      min-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconsvsgii{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+/*  new test  */
+
+.photocontainer { 
+  position: relative; 
+}
+
+
+.photocontainer #blue { 
+  display: block; 
+  overflow-x: hidden;
+}
+
+.photocontainer #playicon  { 
+  position: absolute; bottom:45%; left:46%; 
+}
+
+.photocontainer #text  { 
+  position: absolute; bottom:38%; left:44.5%; 
+  color: white;
+}
+
+.greatgrandgrannie {
+width: 50%;
+margin-left:25%;
+}
+
+  
+
 *{
     margin: 0;
     padding: 0;
