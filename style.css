@@ -5,25 +5,24 @@
    
 }
 
-.first-container {
+.r-first-container {
     background:center/cover no-repeat url(./img/bgk-header.png) ;
-   
     color: white;
-    height:45vh;
-    /*max-width: 1000px;*/
+    height:65vh;
+    
     
 }
 
-.logo {
+.r-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: aqua;
+   
     
 }
 
-#logo {
+#r-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +32,10 @@
 
 
 #tajam{
-    color:33BBC5;
+    color:#285E77;
     font-weight: 100;
     margin-left: 0.5em;
+
 }
 
 #navbar{
@@ -49,10 +49,67 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-
 }
 
 .head-li {
     list-style: none;
+    padding: 2px;
 }
+
+#home {
+    color: #40F8FF;
+}
+
+#r-main {
+    width: 60%;
+    margin-left: 50%;
+    translate: -50%;
+    text-align: center;
+ }
+
+#r-line {
+    max-width:6%;
+    height: 1px;
+    border: 1px solid #40F8FF;
+    margin: auto;  
+ }
+
+
+#r-bt {
+    color: #40F8FF;
+    border: 1px solid #40F8FF;
+    background-color: transparent;
+    padding: 5px;
+    font-weight:600 ;
+    margin-top: 10px;
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+    .r-first-container {
+        min-height: 100vh;
+    }
+    
+    .r-logo {
+        padding-top: 20px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: column wrap;
+        }
+
+
+#head-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#r-line {
+    max-width:16%;
+}
+
+};
+    
