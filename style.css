@@ -292,3 +292,43 @@ button:hover {
 
 };
     
+
+#l h1{
+    font-family:'Playfair Display', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#l>*{
+    width:100%;
+}
+
+.l_gridded {
+    display: grid;
+    grid-template-columns:repeat(12,60px);
+    column-gap:20px;
+    justify-content:center;
+
+}
+
+.l_white{
+    padding:100px 0 70px;
+    grid-auto-rows: auto;
+}
+
+.l_leftie{
+    background-color: deeppink;
+    grid-column-start:1;
+    grid-column-end:span 7;
+}
+
+.l_rightie{  
+    background-color: aqua;
+    grid-column-start: span 5;
+    grid-column-end:auto;
+}
+
+.l_footer{
+    padding:70px 0 70px;
+    color:white;
+    background-color:#140F36;
+}
+
