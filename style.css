@@ -1,12 +1,193 @@
+
+.iconswithtext{
+  min-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  
+  .iconsvsg{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items:flex-end;
+  text-align: center;
+  }
+  
+
+  .iconswithtextii{
+      min-width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iconsvsgii{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+/*  new test  */
+
+.photocontainer { 
+  position: relative; 
+}
+
+
+.photocontainer #blue { 
+  display: block; 
+  overflow-x: hidden;
+}
+
+.photocontainer #playicon  { 
+  position: absolute; bottom:45%; left:46%; 
+}
+
+.photocontainer #text  { 
+  position: absolute; bottom:38%; left:44.5%; 
+  color: white;
+}
+
+.greatgrandgrannie {
+width: 50%;
+margin-left:25%;
+}
+
+  
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
 .r-first-container {
     background:center/cover no-repeat url(./img/bgk-header.png) ;
+}
+
+main {
+    /*max-width: 960px;*/
+    margin: auto;
+    line-height: 1.5;
+}
+
+h1, h2{
+    /*font-family: ;
+    font-size: 1.5em;*/
+    text-transform: uppercase;
+}
+
+/*-- OUR STORY by Eudes --*/
+#ourStory {
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoBig {
+    width: auto;
+    padding: 50px;
+}
+
+.storyText {
+    width: 70%;
+    padding: 50px;
+    
+}
+
+/*-- OUR TEAM by Eudes --*/
+#ourTeam {
+    background-image: url(img/bgk-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.gridContainer {
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.gridContainer a {
+    text-decoration: none;
+}
+
+.divider {
+    color: gray;
+    height: 50px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.gridTeamMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
+}
+
+.gridTeamMember h2, p {
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.gridTeamMember p {
+    color: gray
+}
+
+/*-- BUTTONS --*/
+button {
+    background-color: transparent;
+    border: 2px solid #52c3c0;
+    color: #52c3c0;
+    padding: 10px 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+button:hover {
+    background-color: #52c3c0;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.first-container {
+    background:center/cover no-repeat url(./img/bgk-header.png) ;
+
     color: white;
     height:65vh;
     
@@ -29,8 +210,6 @@
     
     }
 
-
-
 #tajam{
     color:#285E77;
     font-weight: 100;
@@ -43,7 +222,7 @@
     height: 100px;
     margin-top: 2.5em;
     
-  }
+}
 
 #head-ul {
     display: flex;
@@ -65,14 +244,14 @@
     margin-left: 50%;
     translate: -50%;
     text-align: center;
- }
+}
 
 #r-line {
     max-width:6%;
     height: 1px;
     border: 1px solid #40F8FF;
     margin: auto;  
- }
+}
 
 
 #r-bt {
