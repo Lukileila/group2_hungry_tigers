@@ -359,8 +359,46 @@ button:hover {
     object-fit:none;
 }
 
-.l_footer{
+footer{
     padding:70px 0 70px;
     color:white;
     background-color:#140F36;
+    background:center/cover no-repeat url(img/bgk-footer.png) ;
+}
+
+footer:nth-child(2){
+    margin-top:5em;
+}
+
+#l_footercontainer{
+    display:grid;
+}
+
+#l_tajam{
+    grid-column:1 / span 4;
+}
+
+#l_our_story{
+    grid-column:5 /span 4;
+}
+
+#l_stay{
+    grid-column: span 4/ end;
+}
+
+.l_margin{
+    margin-top:3em;
+}
+
+#l_footermenu{
+    grid-column: 1 / span 6 ;
+}
+
+#l_footermenu li{
+display:inline;
+}
+
+#l_copyright{
+    grid-column: span 6/ end;
+    text-align:end;
 }
