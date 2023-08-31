@@ -1,160 +1,184 @@
-
 .iconswithtext{
-  min-width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  }
-  
-  
-  iconsvsg{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items:flex-end;
-  text-align: center;
-  }
-  
-
-  .iconswithtextii{
-      min-width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.iconsvsgii{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-
-}
-
-
-/*  new test  */
-
-.photocontainer { 
-  position: relative; 
-}
-
-
-.photocontainer #blue { 
-  display: block; 
-  overflow-x: hidden;
-}
-
-.photocontainer #playicon  { 
-  position: absolute; bottom:45%; left:46%; 
-}
-
-.photocontainer #text  { 
-  position: absolute; bottom:38%; left:44.5%; 
-  color: white;
-}
-
-.greatgrandgrannie {
-width: 50%;
-margin-left:25%;
-}
-
-  
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-.first-container {
-    background:center/cover no-repeat url(./img/bgk-header.png) ;
-
-    color: white;
-    height:45vh;
-    /*max-width: 1000px;*/
-    
-}
-
-.logo {
+    min-width: 100%;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: aqua;
-    
-}
-
-#logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
     }
-
-#tajam{
-    color:33BBC5;
-    font-weight: 100;
-    margin-left: 0.5em;
-}
-
-#navbar{
-    width: 50%;
-    height: 100px;
-    margin-top: 2.5em;
     
-}
-
-#head-ul {
+    
+    iconsvsg{
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items:flex-end;
+    text-align: center;
+    }
+    
+  
+    .iconswithtextii{
+        min-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
+  }
+  
+  .iconsvsgii{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  
+  /*  new test  */
+  
+  .photocontainer { 
+    position: relative; 
+  }
+  
+  
+  .photocontainer #blue { 
+    display: block; 
+    overflow-x: hidden;
+  }
+  
+  .photocontainer #playicon  { 
+    position: absolute; bottom:45%; left:46%; 
+  }
+  
+  .photocontainer #text  { 
+    position: absolute; bottom:38%; left:44.5%; 
+    color: white;
+  }
+  
+  .greatgrandgrannie {
+  width: 50%;
+  margin-left:25%;
+  }
+  
     
-
-}
-
-.head-li {
-    list-style: none;
-}
-
-#l h1{
-    font-family:'Playfair Display', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-#l>*{
-    width:100%;
-}
-
-.l_gridded {
-    display: grid;
-    grid-template-columns:repeat(12,60px);
-    column-gap:20px;
-    justify-content:center;
-
-}
-
-.l_white{
-    padding:100px 0 70px;
-    grid-auto-rows: auto;
-}
-
-.l_leftie{
-    background-color: deeppink;
-    grid-column-start:1;
-    grid-column-end:span 7;
-}
-
-.l_rightie{  
-    background-color: aqua;
-    grid-column-start: span 5;
-    grid-column-end:auto;
-}
-
-.l_footer{
-    padding:70px 0 70px;
-    color:white;
-    background-color:#140F36;
-}
+  
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  
+  }
+  
+  .first-container {
+      background:center/cover no-repeat url(./img/bgk-header.png) ;
+  
+      color: white;
+      height:45vh;
+      /*max-width: 1000px;*/
+      
+  }
+  
+  .logo {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: aqua;
+      
+  }
+  
+  #logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      }
+  
+  #tajam{
+      color:33BBC5;
+      font-weight: 100;
+      margin-left: 0.5em;
+  }
+  
+  #navbar{
+      width: 50%;
+      height: 100px;
+      margin-top: 2.5em;
+      
+  }
+  
+  #head-ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+  
+  }
+  
+  .head-li {
+      list-style: none;
+  }
+  
+  #l h1{
+      font-family:'Playfair Display', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  #l>*{
+      width:100%;
+  }
+  
+  .l_gridded {
+      display: grid;
+      grid-template-columns:repeat(12,60px);
+      column-gap:20px;
+      justify-content:center;
+  
+  }
+  
+  .l_white{
+      padding:100px 0 70px;
+      grid-auto-rows: auto;
+  }
+  
+  .l_leftie{
+      background-color: deeppink;
+      grid-column-start:1;
+      grid-column-end:span 7;
+  }
+  
+  .l_rightie{  
+      background-color: aqua;
+      grid-column-start: span 5;
+      grid-column-end:auto;
+  }
+  
+  .l_footer{
+      padding:70px 0 70px;
+      color:white;
+      background-color:#140F36;
+  }
+  
+  
+  .textexpertise{
+    text-align: center;
+  }
+  
+  hr {
+    width: 10%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #03aaa1;
+  }
+  
+  .textexpertise{
+    text-align: center;
+  }
+  
+  hr {
+    width: 10%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #07DACF;
+  }
