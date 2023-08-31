@@ -71,17 +71,15 @@ margin-left:25%;
 
 .r-first-container {
     background:center/cover no-repeat url(./img/bgk-header.png) ;
+    color: white;
 }
 
 main {
-    /*max-width: 960px;*/
     margin: auto;
     line-height: 1.5;
 }
 
 h1, h2{
-    /*font-family: ;
-    font-size: 1.5em;*/
     text-transform: uppercase;
 }
 
@@ -186,20 +184,16 @@ button:hover {
 
 
 .first-container {
-    background:center/cover no-repeat url(./img/bgk-header.png) ;
-
+    background:center/cover no-repeat url(./img/bgk-header.png);
     color: white;
-    height:65vh;
-    
-    
+    height:65vh;     
 }
 
 .r-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap; 
     
 }
 
@@ -207,14 +201,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     }
 
 #tajam{
     color:#285E77;
     font-weight: 100;
     margin-left: 0.5em;
-
 }
 
 #navbar{
