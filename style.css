@@ -290,9 +290,7 @@ button:hover {
     max-width:16%;
 }
 
-};
-    
-
+/*-- Styling for the Contact Section and the Footer by Lukas --*/
 #l h1{
     font-family:'Playfair Display', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -331,4 +329,3 @@ button:hover {
     color:white;
     background-color:#140F36;
 }
-
